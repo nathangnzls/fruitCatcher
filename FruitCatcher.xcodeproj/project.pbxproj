@@ -21,6 +21,10 @@
 		D81E237C223F8E8B0021F3C0 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E237B223F8E8B0021F3C0 /* MenuScene.swift */; };
 		D81E237F223F95510021F3C0 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = D81E237E223F95510021F3C0 /* GameOver.sks */; };
 		D81E2381223F95E80021F3C0 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E2380223F95E80021F3C0 /* GameOver.swift */; };
+		D81E238422421BD70021F3C0 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E238322421BD70021F3C0 /* ProductsModel.swift */; };
+		DB2C112D782CB7A92E7251D3 /* Pods_FruitCatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCE3E6BE27246F7A3B50360 /* Pods_FruitCatcher.framework */; };
+		E884078E69E426DB9D05F1CD /* Pods_FruitCatcherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4A90545C7A59A6D2C6D338 /* Pods_FruitCatcherTests.framework */; };
+		F252E253E22913C826978A3D /* Pods_FruitCatcherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBB5477B19B2AC3D60D3CD /* Pods_FruitCatcherUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		165B336D80E487D8A2A93DA4 /* Pods-FruitCatcherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcherUITests/Pods-FruitCatcherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BCBD0EA19C64D400BCB29B2 /* Pods-FruitCatcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcherTests/Pods-FruitCatcherTests.release.xcconfig"; sourceTree = "<group>"; };
+		3193F1708BDBBD5FE44E6126 /* Pods-FruitCatcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcherTests/Pods-FruitCatcherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4A90545C7A59A6D2C6D338 /* Pods_FruitCatcherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruitCatcherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCE3E6BE27246F7A3B50360 /* Pods_FruitCatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruitCatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE6E52506BB35FDC1B49656 /* Pods-FruitCatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcher/Pods-FruitCatcher.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB9C3880FAAEC3CDDE3AA36 /* Pods-FruitCatcherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcherUITests/Pods-FruitCatcherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0534BA9B29DD16EB0313B70 /* Pods-FruitCatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitCatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-FruitCatcher/Pods-FruitCatcher.release.xcconfig"; sourceTree = "<group>"; };
 		D81E233A223F3A760021F3C0 /* FruitCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81E233D223F3A760021F3C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81E233F223F3A760021F3C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -61,6 +73,8 @@
 		D81E237B223F8E8B0021F3C0 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		D81E237E223F95510021F3C0 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
 		D81E2380223F95E80021F3C0 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		D81E238322421BD70021F3C0 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		DCCBB5477B19B2AC3D60D3CD /* Pods_FruitCatcherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruitCatcherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2C112D782CB7A92E7251D3 /* Pods_FruitCatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E884078E69E426DB9D05F1CD /* Pods_FruitCatcherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F252E253E22913C826978A3D /* Pods_FruitCatcherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392BA1F2A894327E385CE295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CE6E52506BB35FDC1B49656 /* Pods-FruitCatcher.debug.xcconfig */,
+				D0534BA9B29DD16EB0313B70 /* Pods-FruitCatcher.release.xcconfig */,
+				3193F1708BDBBD5FE44E6126 /* Pods-FruitCatcherTests.debug.xcconfig */,
+				1BCBD0EA19C64D400BCB29B2 /* Pods-FruitCatcherTests.release.xcconfig */,
+				BCB9C3880FAAEC3CDDE3AA36 /* Pods-FruitCatcherUITests.debug.xcconfig */,
+				165B336D80E487D8A2A93DA4 /* Pods-FruitCatcherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5716AA7FF6EE3DFE6FCBD227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE3E6BE27246F7A3B50360 /* Pods_FruitCatcher.framework */,
+				7A4A90545C7A59A6D2C6D338 /* Pods_FruitCatcherTests.framework */,
+				DCCBB5477B19B2AC3D60D3CD /* Pods_FruitCatcherUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D81E2331223F3A760021F3C0 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +135,8 @@
 				D81E2357223F3A770021F3C0 /* FruitCatcherTests */,
 				D81E2362223F3A770021F3C0 /* FruitCatcherUITests */,
 				D81E233B223F3A760021F3C0 /* Products */,
+				392BA1F2A894327E385CE295 /* Pods */,
+				5716AA7FF6EE3DFE6FCBD227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +153,7 @@
 		D81E233C223F3A760021F3C0 /* FruitCatcher */ = {
 			isa = PBXGroup;
 			children = (
+				D81E2382224219020021F3C0 /* Model */,
 				D81E237D223F95400021F3C0 /* GameOver */,
 				D81E233D223F3A760021F3C0 /* AppDelegate.swift */,
 				D81E2378223F8D540021F3C0 /* MenuScene */,
@@ -178,6 +221,14 @@
 			path = GameOver;
 			sourceTree = "<group>";
 		};
+		D81E2382224219020021F3C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D81E238322421BD70021F3C0 /* ProductsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D81E2368223F3A770021F3C0 /* Build configuration list for PBXNativeTarget "FruitCatcher" */;
 			buildPhases = (
+				E0CB4175A6A1D54FB647C8C8 /* [CP] Check Pods Manifest.lock */,
 				D81E2336223F3A760021F3C0 /* Sources */,
 				D81E2337223F3A760021F3C0 /* Frameworks */,
 				D81E2338223F3A760021F3C0 /* Resources */,
+				B49AAF913DF89356D0FBD55A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D81E236B223F3A770021F3C0 /* Build configuration list for PBXNativeTarget "FruitCatcherTests" */;
 			buildPhases = (
+				84A6FA496EE73DC5D85C1C49 /* [CP] Check Pods Manifest.lock */,
 				D81E2350223F3A770021F3C0 /* Sources */,
 				D81E2351223F3A770021F3C0 /* Frameworks */,
 				D81E2352223F3A770021F3C0 /* Resources */,
@@ -220,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D81E236E223F3A770021F3C0 /* Build configuration list for PBXNativeTarget "FruitCatcherUITests" */;
 			buildPhases = (
+				F7B499F6BC43138F25393474 /* [CP] Check Pods Manifest.lock */,
 				D81E235B223F3A770021F3C0 /* Sources */,
 				D81E235C223F3A770021F3C0 /* Frameworks */,
 				D81E235D223F3A770021F3C0 /* Resources */,
@@ -308,12 +363,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84A6FA496EE73DC5D85C1C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FruitCatcherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49AAF913DF89356D0FBD55A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FruitCatcher/Pods-FruitCatcher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FruitCatcher/Pods-FruitCatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CB4175A6A1D54FB647C8C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FruitCatcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B499F6BC43138F25393474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FruitCatcherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D81E2336223F3A760021F3C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D81E2344223F3A760021F3C0 /* GameScene.swift in Sources */,
+				D81E238422421BD70021F3C0 /* ProductsModel.swift in Sources */,
 				D81E237C223F8E8B0021F3C0 /* MenuScene.swift in Sources */,
 				D81E2346223F3A760021F3C0 /* GameViewController.swift in Sources */,
 				D81E2381223F95E80021F3C0 /* GameOver.swift in Sources */,
@@ -490,6 +637,7 @@
 		};
 		D81E2369223F3A770021F3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE6E52506BB35FDC1B49656 /* Pods-FruitCatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +656,7 @@
 		};
 		D81E236A223F3A770021F3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0534BA9B29DD16EB0313B70 /* Pods-FruitCatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +675,7 @@
 		};
 		D81E236C223F3A770021F3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3193F1708BDBBD5FE44E6126 /* Pods-FruitCatcherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +697,7 @@
 		};
 		D81E236D223F3A770021F3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCBD0EA19C64D400BCB29B2 /* Pods-FruitCatcherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +719,7 @@
 		};
 		D81E236F223F3A770021F3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB9C3880FAAEC3CDDE3AA36 /* Pods-FruitCatcherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +740,7 @@
 		};
 		D81E2370223F3A770021F3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165B336D80E487D8A2A93DA4 /* Pods-FruitCatcherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
